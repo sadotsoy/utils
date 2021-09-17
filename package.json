@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "for now a tiny library for my most used utils",
+  "main": "index.js",
+  "repository": "https://github.com/sadotsoy/utils",
+  "author": "sadotsoy <sadotcortes@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
+}

@@ -1,5 +1,5 @@
 # sadotsoy/utils
-v1.0.0
+v1.0.1
 
 This basic utils library is open for all and used for me: was created for educational, creative, and random purposes.
 
@@ -34,3 +34,21 @@ console.log(value());
 
 ## Modules
 - [`random`](./docs/random.md) Random number generator.
+
+
+**AND** more to come.......
+
+
+## INSTALL
+
+[**YARN**](https://yarnpkg.com)
+
+```sh
+yarn add sadotsoy-utils
+```
+
+[**NPM**](https://npmjs.com/)
+
+```sh
+npm install sadotsoy-utils --save
+```

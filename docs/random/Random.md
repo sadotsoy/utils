@@ -1,5 +1,4 @@
 ## `Random number generator`
-v1.0.0
 
 A random module to produce randomness.
 

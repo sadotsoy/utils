@@ -1,6 +1,6 @@
 {
-  "name": "utils",
-  "version": "1.0.0",
+  "name": "sadotsoy-utils",
+  "version": "1.0.1",
   "description": "for now a tiny library for my most used utils",
   "main": "index.js",
   "repository": "https://github.com/sadotsoy/utils",

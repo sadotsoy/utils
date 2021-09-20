@@ -9,7 +9,7 @@ This basic utils library is open for all and used for me: was created for educat
 Can import all the utils
 
 ```JS
-const utils = require('./utils/');
+const utils = require("sadotsoy-utils");
 
 console.log(utils.random.value());
 // a random number between 0 to 1.
@@ -18,7 +18,7 @@ console.log(utils.random.value());
 **Or** can require a particular module like:
 
 ```JS
-const { random } = require('./utils/index');
+const { random } = require("sadotsoy-utils");
 
 console.log(random.value());
 // a random number between 0 to 1.
@@ -26,7 +26,7 @@ console.log(random.value());
 
 **Or** by using destructuring to grab only a select few functions:
 ```JS
-const { value } = require('./utils/src/Random/');
+const { value } = require("sadotsoy-utils/src/Random/");
 
 console.log(value());
 // a random number between 0 to 1.

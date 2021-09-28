@@ -1,5 +1,5 @@
 # sadotsoy/utils
-v1.0.2
+v1.0.3
 
 This basic utils library is open for all and used for me: was created for educational, creative, and random purposes.
 

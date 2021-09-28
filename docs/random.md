@@ -16,6 +16,8 @@ console.log(random.value());
 
 - [value](#value)
 
+- [range](#range)
+
 
 
 <a name="value"></a>
@@ -23,3 +25,9 @@ console.log(random.value());
 ### `v = random.value()`
 
 Returns a random value between 0 to 1. Is equivalent to `Math.random()` funtion.
+
+<a name="range"></a>
+
+### `v = random.range(min, max)`
+
+Return a random number between min and max, the min default is 0 and the max default is 0. Min and Max should be a number.

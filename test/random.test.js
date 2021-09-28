@@ -1,5 +1,5 @@
 const { value, range } = require('../src/Random/');
-const { NUMBER } = require('../src/constants/');
+const { NUMBER } = require('../src/utils/constants/');
 
 describe('Random tests', () => {
   // value()

@@ -1,14 +1,12 @@
-const { NUMBER } = require('../constants/');
-const { ARGUMENTS } = require('../messages/errors');
+const { ARGUMENTS } = require('../utils/messages/errors');
+const { NUMBER } = require('../utils/constants/');
 
+/*
+ * Random utils function
+*/
 function createRandom() {
   const internals = {
     createRandom: () => Math.random(),
-  };
-
-  return {
-    range,
-    value,
   };
 
   /*
@@ -32,6 +30,11 @@ function createRandom() {
 
     return Math.random() * (max - min) + min;
   }
+
+  return {
+    range,
+    value,
+  };
 }
 
 module.exports = createRandom();

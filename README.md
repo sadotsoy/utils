@@ -1,5 +1,5 @@
 # sadotsoy/utils
-v1.0.3
+v1.0.4
 
 This basic utils library is open for all and used for me: was created for educational, creative, and random purposes.
 
@@ -33,6 +33,7 @@ console.log(value());
 ```
 
 ## Modules
+- [`math`](./docs/math.md) Math utils.
 - [`random`](./docs/random.md) Random number generator.
 
 

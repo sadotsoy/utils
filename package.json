@@ -1,13 +1,12 @@
 {
   "name": "sadotsoy-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "for now a tiny library for my most used utils",
   "main": "index.js",
   "repository": "https://github.com/sadotsoy/utils",
   "author": "sadotsoy <sadotcortes@gmail.com>",
   "license": "MIT",
   "private": false,
-  "type": "module",
   "scripts": {
     "test": "jest ./test"
   },

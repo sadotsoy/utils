@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "error",
+    "semi": ["error", "always"],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "quotes": [2, "single", { "avoidEscape": true }],
+  }
+}

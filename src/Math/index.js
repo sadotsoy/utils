@@ -1,5 +1,5 @@
-const ARGUMENTS = require('../utils/messages/errors');
-const { NUMBER } = require('../utils/constants/');
+const { ARGUMENTS } = require('../utils/messages/errors');
+const { BOOLEAN, NUMBER } = require('../utils/constants/');
 
 /*
  * Math utils function
@@ -35,6 +35,20 @@ function mathUtils() {
    * be returned to prevent divide by zero errors.
    */
   function mapRange(value, inputMin, inputMax, outputMin, outputMax, clamp = false) {
+    if (
+      typeof value !== NUMBER ||
+      typeof inputMin !== NUMBER ||
+      typeof inputMax !== NUMBER ||
+      typeof outputMin !== NUMBER ||
+      typeof outputMax !== NUMBER
+    ) {
+      throw new TypeError(ARGUMENTS.numbers);
+    }
+
+    if (typeof clamp !== BOOLEAN) {
+      throw new TypeError(ARGUMENTS.boolean);
+    }
+
     if (Math.abs(inputMin - inputMax) < Number.EPSILON) {
       return outputMin;
     }

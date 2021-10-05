@@ -53,7 +53,7 @@ function mathUtils() {
       return outputMin;
     }
 
-    let outValue = ((value - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin) + outputMin;
+    let outValue = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
 
     if (clamp) {
       if (outputMax < outputMin) {
